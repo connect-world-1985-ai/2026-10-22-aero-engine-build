@@ -21,3 +21,9 @@ ETA: finals ~05:00 on 10-23, on track; no accuracy cuts needed.
 - Cutaway wedge 110° (widened from 90°; at 90° the booster sat behind the fan ring), full ring of 18 fan blades kept. Dark studio, restrained metals, brick-coral cut caps; LP shaft caps blue, HP shaft caps copper.
 - 10-part checklist (all identifiable in mid_03_cut): 1 Fan ✓ 2 LPC booster ✓ 3 HPC ✓ 4 Combustor (glow) ✓ 5 HPT (gold, small but visible) ✓ 6 LPT (blue) ✓ 7 Exhaust nozzle + plug ✓ 8 Bypass duct + OGVs ✓ 9 Nacelle ✓ 10 Dual-rotor shafts ✓
 - Pylon stub (P2) is built but excluded from the exterior render (looked like a flat board; cleaner product shot without it). Finals expected well before 05:00.
+
+## (d) Finals done, secret scan clean, ready to push (NOT pushed) — 2026-10-22 23:15 (Asia/Shanghai)
+- renders/cutaway.png (1920x1080, 267 s) and renders/exterior.png (1920x1080, 368 s); engine.blend 2.2 MB (Cutaway + Exterior scenes, both verified to open and render: previews/blendcheck_v3.png); engine.py; README.md.
+- Secret scan: gitleaks 8.21.2 on the tree and the full history found no leaks, and the manual grep was clean. See logs/secret-scan.txt.
+- Git: local commits only, no remote. engine.blend and both final PNGs (2.0 and 1.7 MB) are committed; previews are ignored except previews/side_final.png.
+- Delivered about 6 h ahead of the 05:00 target. Nothing from P0/P1 was cut; the P2 pylon is built but excluded from the exterior render.
