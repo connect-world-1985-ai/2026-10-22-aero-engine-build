@@ -44,3 +44,29 @@ Stylized (no public number, chosen by eye): inlet lip length (-0.80 m), plug tip
 
 ## Colour key (no labels)
 Nacelle: satin white paint. Bypass duct walls: satin aluminium. Fan: dark composite. LPC: warm titanium. HPC: bright steel. Stators and frames: dark steel/gunmetal. Combustor: Inconel bronze with an orange glow. HPT: dark gold. LPT: tempered blue. Exhaust: heat-tint dark grey. LP shaft: blue. HP shaft: copper. Cut faces: brick coral (light warm grey on nacelle/duct). Shaft cut faces use the shaft colour.
+
+## Render times (Cycles CPU, 6 threads, OIDN, adaptive 256 max samples at threshold 0.015, 1920x1080)
+| Image | Time | Notes |
+|---|---|---|
+| renders/cutaway.png | 266.6 s (4 min 27 s) | 2026-10-22 22:58 to 23:03 (Asia/Shanghai) |
+| renders/exterior.png | 368.0 s (6 min 8 s) | 23:03 to 23:09. The previous identical-settings run took 187 s, so this one was probably slowed by other processes sharing the box CPU |
+Scene: about 125k vertices and 124 objects. Peak render memory was about 220 MB. Previews took about 4 s (640x360, 16 samples) and mid renders about 45 s (1280x720, 64 samples).
+
+## What was cut
+Nothing from P0 or P1. From P2, the bearing rings and the spinner spiral are in. The pylon stub is built (`12_Pylon_ext`) but **left out of the exterior render** because it read as a flat board; render it with `pylon=1`, or un-exclude the collection in the Exterior view layer.
+
+## Deviations from the plan, and why
+1. **LEAP-1A stage counts, not the CFM56-7B mix** (Raymond's decision): 18 fan blades, 3 LPC (with 4 stator rows), 10 HPC (IGV + 9 stators), 2 HPT, 7 LPT, 19 fuel nozzles. The overall scale comes from the 78 in fan and the 3.328 m flange length.
+2. **Blade rows are baked meshes, not Array modifiers.** An Array modifier can't skip the blades inside the cut wedge, so every row is generated per blade with the wedge filter applied. To change counts, edit `engine.py` and re-run `setup`.
+3. **Wedge is 110°, not 90°.** At 90° the booster was hidden behind the fan ring. The full ring of fan blades is kept.
+4. **Cutaway camera is above and slightly behind the fan plane** rather than a classic front three-quarter view. From in front, the full fan ring hides the LPC; the front of the fan is shown in the exterior image instead.
+5. **Output folder** is `/workspace/2026-10-22-aero-engine-build/` as Martin specified, not the plan's `...-aero-engine-blender`.
+6. **The EEVEE probe from step 0 was skipped.** Cycles previews took about 4 s, so a faster check wasn't needed.
+7. **Compositor** keeps only a gentle vignette. The demo's bloom and streaks were dropped for the product-photography look.
+8. Render metadata stamps (`use_stamp_*`) are off as well as the burn-in, so the PNGs carry no file path, date or hostname. Cycles still writes its sample and time keys.
+9. **Bug fixed after the finals:** each scene's compositor Render Layers node defaulted to the scene that was active when the script ran, so in the saved .blend the Exterior scene rendered the Cutaway scene. `rl.scene` is now set explicitly. Both finals were rendered with their own scene active, so they were not affected. Both scenes in the re-saved `engine.blend` were verified (previews/blendcheck_v3.png).
+
+## Verification done
+- `previews/side_final.png`: in this orthographic half-section the reference bars sit at x=0 and x=3.328 m and at r=±0.991 m. Measured in the image: 608 px for 3.328 m and 364 px for 1.99 m, which matches the length-to-fan-diameter ratio of 1.68.
+- Both finals are 1920x1080 RGB, with no text objects (the script asserts this), no burned-in stamp and no metadata stamp.
+- `engine.blend` opens headless, and both scenes render (`-S Exterior` and `-S Cutaway`).

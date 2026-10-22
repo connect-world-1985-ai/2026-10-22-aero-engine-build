@@ -571,6 +571,7 @@ def render_setup(sc):
     nt = sc.node_tree
     for nd in list(nt.nodes): nt.nodes.remove(nd)
     rl = nt.nodes.new('CompositorNodeRLayers')
+    rl.scene = sc          # default would be the context scene -> the other scene would render the wrong one
     el = nt.nodes.new('CompositorNodeEllipseMask'); el.width = 1.05; el.height = 0.95
     bl = nt.nodes.new('CompositorNodeBlur'); bl.size_x = 300; bl.size_y = 220; bl.use_relative = False
     mp = nt.nodes.new('CompositorNodeMapRange')

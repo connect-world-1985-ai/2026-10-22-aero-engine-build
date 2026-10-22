@@ -1,4 +1,4 @@
-[engine] objects=111 verts=186432 build=0.4s mode=setup view=cut span=110
+[engine] objects=111 verts=186634 build=0.4s mode=setup view=cut span=110
    Core_Casing_Fwd: 11110
    Core_Casing_Aft: 8888
    Fan_Blades_x18: 6048
