@@ -1,0 +1,14 @@
+[engine] objects=111 verts=186432 build=0.4s mode=setup view=cut span=110
+   Core_Casing_Fwd: 11110
+   Core_Casing_Aft: 8888
+   Fan_Blades_x18: 6048
+   Nacelle_360: 3312
+   LPT_R7_x98: 3168
+   LPT_R6_x94: 3024
+   LPT_N7_x92: 2928
+   CoreCowl_360: 2880
+Info: Saved "engine.blend"
+[engine] saved engine.blend
+Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 01:31:14)
+
+Blender quit

@@ -12,7 +12,7 @@ Settled numbers (all from public sources, verified 22:30):
 - The 3,328 mm length excludes inlet cowl and exhaust plug, so the nacelle lip and plug are stylized extensions.
 ETA: finals ~05:00 on 10-23, on track; no accuracy cuts needed.
 
-## (b) Side-view proportion preview — 2026-10-22 22:50 (Asia/Shanghai)
+## (b) Side-view proportion preview — 2026-10-22 22:33 (Asia/Shanghai)
 - previews/side_01.png: orthographic half-section (1280x640). Thin red bars mark x=0 and x=3.328 m (EASA flange-to-flange length) and r=±0.991 m (78 in fan). Fan tip, LPC 3 rotors / 4 stators, HPC IGV + 10 rotors + 9 stators, annular combustor, HPT 2 stages, LPT 7 stages and the TRF all fall inside the 3.328 m station. Nacelle inlet lip (-0.80 m) and plug tip (4.0 m) are stylized extensions past the flanges.
 - Build: 104 objects, 125k verts, 0.5 s; side render 16 s. On track for ~05:00.
 

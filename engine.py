@@ -211,12 +211,12 @@ M = dict(
     nacelle=new_mat('Nacelle_Paint', (0.42, 0.425, 0.42), rough=0.30, coat=0.6),
     duct=new_mat('BypassDuct_SatinAlu', (0.62, 0.63, 0.64), rough=0.42, metal=1.0),
     spinner=None,
-    fan=new_mat('Fan_Composite', (0.075, 0.08, 0.09), rough=0.28, metal=0.35, coat=0.8),
+    fan=new_mat('Fan_Composite', (0.07, 0.075, 0.085), rough=0.34, metal=0.3, coat=0.25),
     lpc=new_mat('LPC_Titanium', (0.66, 0.64, 0.60), rough=0.26, metal=1.0),
     hpc=new_mat('HPC_Steel', (0.80, 0.81, 0.83), rough=0.20, metal=1.0),
     stator=new_mat('Stator_DarkSteel', (0.42, 0.43, 0.45), rough=0.32, metal=1.0),
     comb=new_mat('Combustor_Inconel', (0.62, 0.46, 0.32), rough=0.33, metal=1.0),
-    flame=new_mat('Combustor_Glow', (1.0, 0.45, 0.12), rough=0.5, emit=(1.0, 0.42, 0.10), estr=16.0),
+    flame=new_mat('Combustor_Glow', (1.0, 0.45, 0.12), rough=0.5, emit=(1.0, 0.38, 0.08), estr=4.0),
     hpt=new_mat('HPT_DarkGold', (0.78, 0.56, 0.26), rough=0.28, metal=1.0),
     lpt=new_mat('LPT_TemperedBlue', (0.36, 0.40, 0.52), rough=0.30, metal=1.0),
     nozzle=new_mat('Exhaust_HeatTint', (0.30, 0.27, 0.25), rough=0.38, metal=1.0),
@@ -425,7 +425,7 @@ for i, xb in enumerate((0.52, 1.13, 2.50, 3.27)):          # bearing housings (P
 # ------------------------------------------------------------------ 10 dual-rotor shafts
 revolve('LP_Shaft', shell([(0.40, 0.040), (0.55, 0.040), (3.20, 0.040), (3.40, 0.040)], 0.022),
         M['lpshaft'], M['lpshaft_cap'], C_SHF, seg_scale=0.7)
-revolve('LP_Shaft_TurbineCone', [(3.12, 0.065), (3.12, 0.085), (2.98, 0.27), (2.985, 0.258)], M['lpshaft'], M['lpshaft_cap'], C_SHF)
+revolve('LP_Shaft_TurbineCone', [(3.10, 0.062), (3.13, 0.062), (3.13, 0.09), (3.00, 0.265), (2.975, 0.265), (2.975, 0.245)], M['lpshaft'], M['lpshaft_cap'], C_SHF)
 revolve('HP_Shaft', shell([(1.10, 0.082), (2.52, 0.082)], 0.016), M['hpshaft'], M['hpshaft_cap'], C_SHF, seg_scale=0.7)
 revolve('HP_Shaft_FwdCone', [(1.10, 0.096), (1.18, 0.20), (1.19, 0.20), (1.115, 0.096)], M['hpshaft'], M['hpshaft_cap'], C_SHF)
 revolve('HP_Shaft_AftCone', [(2.26, 0.22), (2.40, 0.098), (2.415, 0.098), (2.275, 0.22)], M['hpshaft'], M['hpshaft_cap'], C_SHF)
@@ -556,6 +556,10 @@ def render_setup(sc):
     r = sc.render
     r.threads_mode = 'FIXED'; r.threads = 6
     r.use_stamp = False
+    for a in dir(r):
+        if a.startswith('use_stamp_'):
+            try: setattr(r, a, False)
+            except Exception: pass
     r.film_transparent = False
     r.image_settings.file_format = 'PNG'; r.image_settings.color_depth = '8'; r.image_settings.color_mode = 'RGB'
     sc.view_settings.view_transform = 'AgX'
