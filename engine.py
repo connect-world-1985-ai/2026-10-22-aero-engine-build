@@ -37,7 +37,7 @@ LEAP = dict(
 R_FAN = LEAP['fan_diameter'] / 2
 
 # cutaway wedge: angle measured in the YZ plane, 0 deg = +Y, 90 deg = +Z
-CUT_SPAN = math.radians(float(kv.get('span', 100)))
+CUT_SPAN = math.radians(float(kv.get('span', 110)))
 CUT_CENTER = math.radians(float(kv.get('center', 135)))   # top-left as seen from the -Y / front-left camera
 FAN_FULL = True                                             # keep the whole fan ring (Raymond's decision)
 SIDE = (MODE == 'side')
@@ -47,9 +47,11 @@ SEG = 144                                                   # segments for a ful
 
 # ------------------------------------------------------------------ scene reset
 bpy.ops.wm.read_factory_settings(use_empty=True)
-SC_CUT = bpy.context.scene
-SC_CUT.name = 'Cutaway'
-SC_EXT = bpy.data.scenes.new('Exterior')
+# the scene that gets rendered must be the context scene (render.render(scene=...) is ignored headless)
+if VIEW == 'ext' and MODE not in ('side', 'setup'):
+    SC_EXT = bpy.context.scene; SC_EXT.name = 'Exterior'; SC_CUT = bpy.data.scenes.new('Cutaway')
+else:
+    SC_CUT = bpy.context.scene; SC_CUT.name = 'Cutaway'; SC_EXT = bpy.data.scenes.new('Exterior')
 
 # ------------------------------------------------------------------ helpers (new_mat/link pattern copied from blender-demo/scene.py)
 def new_mat(name, color=(0.5, 0.5, 0.5), rough=0.4, metal=0.0, emit=None, estr=0.0, coat=0.0, aniso=0.0):
@@ -205,7 +207,7 @@ def cylinder_between(bm, p0, p1, rad, nv=10):
 
 # ------------------------------------------------------------------ materials (restrained, product-photo palette)
 M = dict(
-    nacelle=new_mat('Nacelle_Paint', (0.80, 0.80, 0.78), rough=0.30, coat=0.6),
+    nacelle=new_mat('Nacelle_Paint', (0.50, 0.505, 0.50), rough=0.30, coat=0.6),
     duct=new_mat('BypassDuct_SatinAlu', (0.62, 0.63, 0.64), rough=0.42, metal=1.0),
     spinner=None,
     fan=new_mat('Fan_Composite', (0.075, 0.08, 0.09), rough=0.28, metal=0.35, coat=0.8),
@@ -427,9 +429,9 @@ revolve_shell('Exhaust', 'ExhaustPlug', plug_prof, M['nozzle'], M['cap'])
 # ------------------------------------------------------------------ 12 pylon stub (exterior only, P2)
 if not SIDE:
     bm = bmesh.new()
-    outline = [(0.30, 1.12), (1.40, 1.09), (2.10, 0.93), (2.70, 0.62), (3.15, 0.58), (3.15, 0.70), (2.60, 1.25), (2.10, 1.80),
-               (0.10, 1.80)]
-    w = 0.11
+    outline = [(0.30, 1.12), (1.40, 1.09), (2.10, 0.93), (2.70, 0.62), (3.15, 0.58), (3.15, 0.70), (2.45, 1.25), (2.10, 1.55),
+               (0.10, 1.55)]
+    w = 0.15
     top = [bm.verts.new((x, -w * (0.6 if x > 2.6 else 1.0), z)) for x, z in outline]
     bot = [bm.verts.new((x, w * (0.6 if x > 2.6 else 1.0), z)) for x, z in outline]
     bm.faces.new(top); bm.faces.new(list(reversed(bot)))
@@ -437,7 +439,7 @@ if not SIDE:
     for j in range(n):
         bm.faces.new((top[j], top[(j + 1) % n], bot[(j + 1) % n], bot[j]))
     o = mesh_obj('Pylon_Stub', bm, [M['nacelle']], C_PYL, sharp_deg=30)
-    bv = o.modifiers.new('bevel', 'BEVEL'); bv.width = 0.035; bv.segments = 3; bv.limit_method = 'ANGLE'
+    bv = o.modifiers.new('bevel', 'BEVEL'); bv.width = 0.06; bv.segments = 4; bv.limit_method = 'ANGLE'
 
 # ------------------------------------------------------------------ studio: cyclorama bowl, lights, cameras
 C_STU = bpy.data.collections.new('Studio_Common')
@@ -460,6 +462,7 @@ def area(name, c, loc, target, power, size, color=(1, 1, 1), shape='RECTANGLE', 
     ld.size = size
     if size_y: ld.size_y = size_y
     o = bpy.data.objects.new(name, ld); o.location = loc
+    o.visible_camera = False
     d = Vector(target) - Vector(loc)
     o.rotation_euler = d.to_track_quat('-Z', 'Y').to_euler()
     c.objects.link(o)
@@ -476,20 +479,24 @@ def camera(name, c, loc, target, lens, ortho=None):
 
 CENTER = Vector((1.55, 0, 0))
 # Cutaway lighting: key from upper front-left, rim from behind, warm-neutral fill into the open wedge
-area('Cut_Key', C_SCUT, (-1.5, -4.5, 5.0), CENTER, 2600, 3.5, (1.0, 0.97, 0.93), size_y=2.5)
+area('Cut_Key', C_SCUT, (-1.5, -4.5, 5.0), CENTER, 2000, 3.5, (1.0, 0.97, 0.93), size_y=2.5)
 area('Cut_Fill', C_SCUT, (-3.5, 2.0, 1.0), CENTER, 500, 4.0, (0.85, 0.9, 1.0))
 area('Cut_Rim', C_SCUT, (4.5, 3.5, 3.5), CENTER, 1600, 3.0, (0.9, 0.95, 1.0))
-area('Cut_InteriorFill', C_SCUT, (1.6, -1.6, 2.2), (1.7, 0.0, 0.0), 260, 1.4, (1.0, 0.96, 0.9), size_y=0.6)
-area('Cut_Floor_Kick', C_SCUT, (1.6, -3.0, -1.2), CENTER, 300, 4.0, (0.8, 0.85, 1.0), size_y=1.0)
+area('Cut_InteriorFill', C_SCUT, (1.6, -1.6, 2.2), (1.7, 0.0, 0.0), 380, 1.4, (1.0, 0.96, 0.9), size_y=0.6)
+area('Cut_Floor_Kick', C_SCUT, (1.6, -3.0, -1.2), CENTER, 120, 4.0, (0.8, 0.85, 1.0), size_y=1.0)
 # Exterior lighting
-area('Ext_Key', C_SEXT, (-3.5, -5.0, 3.5), CENTER, 2800, 4.0, (1.0, 0.97, 0.93), size_y=2.5)
+area('Ext_Key', C_SEXT, (-3.5, -5.0, 3.5), CENTER, 1700, 4.0, (1.0, 0.97, 0.93), size_y=2.5)
 area('Ext_Fill', C_SEXT, (-4.0, 3.5, 0.0), CENTER, 600, 4.0, (0.85, 0.9, 1.0))
 area('Ext_Rim', C_SEXT, (5.0, 2.5, 3.5), CENTER, 2000, 3.0, (0.9, 0.95, 1.0))
 area('Ext_Top', C_SEXT, (1.5, 0.0, 5.0), CENTER, 900, 6.0, (1, 1, 1), size_y=2.0)
 area('Ext_Inlet', C_SEXT, (-3.2, -1.6, 0.2), (0.4, 0, 0), 400, 1.5, (1.0, 0.97, 0.93))
 
-CAM_CUT = camera('Cam_Cutaway', C_SCUT, (-2.65, -5.55, 3.25), (1.55, 0.05, -0.05), 52)
-CAM_EXT = camera('Cam_Exterior', C_SEXT, (-4.6, -4.4, -0.35), (1.15, 0.0, 0.0), 50)
+CAM_CUT = camera('Cam_Cutaway', C_SCUT, (float(kv.get('cx', 0.2)), float(kv.get('cy', -6.4)), float(kv.get('cz', 4.7))), (1.5, 0.05, -0.12), float(kv.get('lens', 50)))
+CAM_EXT = camera('Cam_Exterior', C_SEXT, (-5.3, -5.9, -0.05), (1.25, 0.0, -0.05), 48)
+if VIEW == 'fanfront':
+    CAM_CUT = camera('Cam_FanFront', C_SCUT, (-4.5, -0.6, 0.4), (0.4, 0, 0), 60)
+if VIEW == 'fanside':
+    CAM_CUT = camera('Cam_FanSide', C_SCUT, (0.3, -4.2, 2.6), (0.4, 0, 0.3), 60)
 if SIDE:
     CAM_CUT = camera('Cam_Side', C_SCUT, (1.6, -10, 0), (1.6, 0, 0), 50, ortho=5.6)
     # proportion reference bars (geometry, preview only): x=0, x=3.328, r=+-fan radius
@@ -561,6 +568,7 @@ def render_setup(sc):
 
 for sc in (SC_CUT, SC_EXT):
     render_setup(sc)
+SC_EXT.view_settings.exposure = -0.35
 
 # sanity: no text objects anywhere
 assert not [o for o in bpy.data.objects if o.type == 'FONT'], 'text object found'
@@ -577,11 +585,11 @@ def do_render(sc, w, h, samples, path, thr=None):
     if thr: sc.cycles.adaptive_threshold = thr
     sc.render.filepath = path
     t = time.time()
-    bpy.context.window.scene = sc if bpy.context.window else None
-    bpy.ops.render.render(write_still=True, scene=sc.name)
+    assert bpy.context.scene == sc, 'render scene must be the context scene'
+    bpy.ops.render.render(write_still=True)
     print(f'[engine] rendered {path} {w}x{h} samples={samples} in {time.time() - t:.1f}s')
 
-sc = SC_CUT if VIEW == 'cut' or SIDE else SC_EXT
+sc = SC_EXT if (VIEW == 'ext' and not SIDE) else SC_CUT
 os.makedirs(f'{OUT}/previews', exist_ok=True); os.makedirs(f'{OUT}/renders', exist_ok=True)
 if MODE == 'side':
     sc.cycles.use_denoising = True

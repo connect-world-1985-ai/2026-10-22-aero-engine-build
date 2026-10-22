@@ -1,0 +1,180 @@
+Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 01:31:14)
+Fra:1 Mem:36.03M (Peak 36.03M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Spinner_FanHub
+Fra:1 Mem:36.04M (Peak 36.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_R1_x64
+Fra:1 Mem:38.11M (Peak 38.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Cyclorama
+Fra:1 Mem:39.56M (Peak 39.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Bearing_4
+Fra:1 Mem:39.75M (Peak 39.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Bearing_3
+Fra:1 Mem:39.65M (Peak 39.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_Disc1
+Fra:1 Mem:39.82M (Peak 39.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_S2_x80
+Fra:1 Mem:39.63M (Peak 39.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Bearing_2
+Fra:1 Mem:39.90M (Peak 39.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_R2_x64
+Fra:1 Mem:39.92M (Peak 39.92M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_Disc2
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Bearing_1
+Fra:1 Mem:40.83M (Peak 40.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | TurbineRearFrame_Struts
+Fra:1 Mem:41.22M (Peak 41.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_S3_x80
+Fra:1 Mem:41.54M (Peak 41.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_R3_x64
+Fra:1 Mem:42.08M (Peak 42.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_Disc3
+Fra:1 Mem:42.05M (Peak 42.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_S4_x80
+Fra:1 Mem:42.75M (Peak 42.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_Drum
+Fra:1 Mem:43.07M (Peak 43.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | TurbineCenterFrame_Vanes
+Fra:1 Mem:42.18M (Peak 43.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPC_SpoolCone
+Fra:1 Mem:42.84M (Peak 43.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | FanHubFrame_Struts
+Fra:1 Mem:43.39M (Peak 43.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | FanHubFrame_InnerWall
+Fra:1 Mem:43.63M (Peak 43.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_IGV_x47
+Fra:1 Mem:44.11M (Peak 44.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R1_x37
+Fra:1 Mem:43.68M (Peak 44.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc1
+Fra:1 Mem:43.85M (Peak 44.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S2_x50
+Fra:1 Mem:43.87M (Peak 44.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R2_x40
+Fra:1 Mem:44.51M (Peak 44.51M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc2
+Fra:1 Mem:44.75M (Peak 44.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S3_x53
+Fra:1 Mem:44.72M (Peak 44.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Core_Casing_Aft
+Fra:1 Mem:44.55M (Peak 44.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R3_x43
+Fra:1 Mem:44.36M (Peak 44.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc3
+Fra:1 Mem:45.26M (Peak 45.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S4_x56
+Fra:1 Mem:44.93M (Peak 45.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R4_x46
+Fra:1 Mem:46.15M (Peak 46.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc4
+Fra:1 Mem:46.81M (Peak 46.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S5_x59
+Fra:1 Mem:47.11M (Peak 47.11M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R5_x49
+Fra:1 Mem:47.39M (Peak 47.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc5
+Fra:1 Mem:47.15M (Peak 47.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S6_x62
+Fra:1 Mem:47.03M (Peak 47.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R6_x52
+Fra:1 Mem:48.12M (Peak 48.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc6
+Fra:1 Mem:48.33M (Peak 48.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S7_x65
+Fra:1 Mem:48.21M (Peak 48.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R7_x55
+Fra:1 Mem:48.79M (Peak 48.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc7
+Fra:1 Mem:48.88M (Peak 48.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S8_x68
+Fra:1 Mem:48.91M (Peak 48.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R8_x58
+Fra:1 Mem:48.90M (Peak 48.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc8
+Fra:1 Mem:49.59M (Peak 49.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S9_x71
+Fra:1 Mem:50.02M (Peak 50.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R9_x61
+Fra:1 Mem:50.04M (Peak 50.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc9
+Fra:1 Mem:51.27M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_S10_x74
+Fra:1 Mem:50.77M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_R10_x64
+Fra:1 Mem:49.72M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Disc10
+Fra:1 Mem:49.72M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Drum
+Fra:1 Mem:49.58M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Core_Casing_Fwd
+Fra:1 Mem:49.86M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Combustor_Liner
+Fra:1 Mem:49.99M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Combustor_FlameZone
+Fra:1 Mem:49.99M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Combustor_OuterCase
+Fra:1 Mem:50.75M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Combustor_InnerCase
+Fra:1 Mem:51.07M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPC_Diffuser
+Fra:1 Mem:50.92M (Peak 51.27M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Combustor_FuelNozzles_x19
+Fra:1 Mem:51.36M (Peak 51.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_N1_x34
+Fra:1 Mem:51.44M (Peak 51.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_R1_x52
+Fra:1 Mem:53.38M (Peak 53.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_Disc1
+Fra:1 Mem:53.99M (Peak 53.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_N2_x42
+Fra:1 Mem:53.74M (Peak 53.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_R2_x52
+Fra:1 Mem:53.77M (Peak 53.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_Disc2
+Fra:1 Mem:54.38M (Peak 54.38M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HPT_Drum
+Fra:1 Mem:54.53M (Peak 54.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N1_x68
+Fra:1 Mem:54.79M (Peak 54.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R1_x74
+Fra:1 Mem:54.74M (Peak 54.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc1
+Fra:1 Mem:55.64M (Peak 55.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N2_x72
+Fra:1 Mem:55.74M (Peak 55.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R2_x78
+Fra:1 Mem:56.70M (Peak 56.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc2
+Fra:1 Mem:57.14M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N3_x76
+Fra:1 Mem:55.03M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R3_x82
+Fra:1 Mem:55.10M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc3
+Fra:1 Mem:55.04M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HP_Shaft_AftCone
+Fra:1 Mem:55.55M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N4_x80
+Fra:1 Mem:56.11M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HP_Shaft_FwdCone
+Fra:1 Mem:56.71M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | HP_Shaft
+Fra:1 Mem:56.32M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R4_x86
+Fra:1 Mem:56.40M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc4
+Fra:1 Mem:56.35M (Peak 57.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LP_Shaft_TurbineCone
+Fra:1 Mem:57.44M (Peak 57.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N5_x84
+Fra:1 Mem:57.15M (Peak 57.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R5_x90
+Fra:1 Mem:56.71M (Peak 57.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LP_Shaft
+Fra:1 Mem:56.76M (Peak 57.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc5
+Fra:1 Mem:58.06M (Peak 58.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N6_x88
+Fra:1 Mem:58.03M (Peak 58.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Nacelle_cut
+Fra:1 Mem:58.10M (Peak 58.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R6_x94
+Fra:1 Mem:58.01M (Peak 58.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc6
+Fra:1 Mem:58.57M (Peak 58.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_N7_x92
+Fra:1 Mem:58.99M (Peak 58.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_R7_x98
+Fra:1 Mem:59.83M (Peak 59.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Disc7
+Fra:1 Mem:60.59M (Peak 60.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | LPT_Drum
+Fra:1 Mem:60.65M (Peak 60.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | CoreNozzle_cut
+Fra:1 Mem:60.86M (Peak 60.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | ExhaustPlug_cut
+Fra:1 Mem:60.62M (Peak 60.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | BypassDuct_OuterWall_cut
+Fra:1 Mem:60.93M (Peak 60.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | Bypass_OGV
+Fra:1 Mem:61.10M (Peak 61.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Synchronizing object | CoreCowl_cut
+Fra:1 Mem:60.62M (Peak 61.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Initializing
+Fra:1 Mem:56.30M (Peak 61.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Waiting for render to start
+Fra:1 Mem:56.30M (Peak 61.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:56.30M (Peak 61.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Updating Scene
+Fra:1 Mem:56.30M (Peak 61.10M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Cutaway, ViewLayer | Updating Shaders
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Procedurals
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Background
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Camera
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Objects
+Fra:1 Mem:56.39M (Peak 61.10M) | Time:00:00.03 | Mem:0.02M, Peak:0.02M | Cutaway, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:56.42M (Peak 61.10M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:56.42M (Peak 61.10M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Particle Systems
+Fra:1 Mem:56.42M (Peak 61.10M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:56.42M (Peak 61.10M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Meshes
+Fra:1 Mem:61.63M (Peak 61.63M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:64.79M (Peak 64.79M) | Time:00:00.04 | Mem:0.04M, Peak:0.04M | Cutaway, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:64.78M (Peak 64.79M) | Time:00:00.04 | Mem:3.19M, Peak:3.19M | Cutaway, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:64.78M (Peak 64.79M) | Time:00:00.04 | Mem:3.19M, Peak:3.19M | Cutaway, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:64.78M (Peak 64.79M) | Time:00:00.04 | Mem:13.61M, Peak:13.61M | Cutaway, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:64.78M (Peak 64.79M) | Time:00:00.07 | Mem:24.94M, Peak:35.36M | Cutaway, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:64.78M (Peak 64.79M) | Time:00:00.07 | Mem:24.94M, Peak:35.36M | Cutaway, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:79.67M (Peak 79.67M) | Time:00:00.07 | Mem:24.94M, Peak:35.36M | Cutaway, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:79.67M (Peak 79.67M) | Time:00:00.07 | Mem:39.84M, Peak:39.84M | Cutaway, ViewLayer | Updating Objects Flags
+Fra:1 Mem:79.67M (Peak 79.67M) | Time:00:00.07 | Mem:39.84M, Peak:39.84M | Cutaway, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:79.68M (Peak 79.68M) | Time:00:00.07 | Mem:39.84M, Peak:39.84M | Cutaway, ViewLayer | Updating Images
+Fra:1 Mem:79.68M (Peak 79.68M) | Time:00:00.07 | Mem:39.84M, Peak:39.84M | Cutaway, ViewLayer | Updating Camera Volume
+Fra:1 Mem:79.68M (Peak 79.68M) | Time:00:00.07 | Mem:39.84M, Peak:39.84M | Cutaway, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:79.68M (Peak 79.68M) | Time:00:00.07 | Mem:39.92M, Peak:39.92M | Cutaway, ViewLayer | Updating Lights
+Fra:1 Mem:79.68M (Peak 79.68M) | Time:00:00.07 | Mem:39.92M, Peak:39.92M | Cutaway, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:80.43M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Updating Integrator
+Fra:1 Mem:80.43M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Updating Film
+Fra:1 Mem:80.43M (Peak 80.92M) | Time:00:00.09 | Mem:40.59M, Peak:40.68M | Cutaway, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:80.43M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Updating Baking
+Fra:1 Mem:80.43M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:80.44M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:80.44M (Peak 80.92M) | Time:00:00.09 | Mem:40.68M, Peak:40.68M | Cutaway, ViewLayer | Sample 0/16
+Fra:1 Mem:97.16M (Peak 97.16M) | Time:00:00.31 | Remaining:00:03.22 | Mem:57.38M, Peak:57.38M | Cutaway, ViewLayer | Sample 1/16
+Fra:1 Mem:104.20M (Peak 114.75M) | Time:00:03.53 | Mem:57.38M, Peak:57.38M | Cutaway, ViewLayer | Sample 16/16
+Fra:1 Mem:104.20M (Peak 114.75M) | Time:00:03.53 | Mem:57.38M, Peak:57.38M | Cutaway, ViewLayer | Finished
+Fra:1 Mem:45.21M (Peak 114.75M) | Time:00:03.53 | Compositing
+Fra:1 Mem:45.21M (Peak 114.75M) | Time:00:03.53 | Compositing | Initializing execution
+Fra:1 Mem:45.22M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 2-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 3-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 4-22
+Fra:1 Mem:46.16M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 5-22
+Fra:1 Mem:46.16M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 6-22
+Fra:1 Mem:46.16M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 7-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 8-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.53 | Compositing | Operation 9-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.57 | Compositing | Operation 10-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 11-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 12-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 13-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 14-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 15-22
+Fra:1 Mem:46.16M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 16-22
+Fra:1 Mem:46.16M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 17-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 18-22
+Fra:1 Mem:52.31M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 19-22
+Fra:1 Mem:52.31M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 20-22
+Fra:1 Mem:52.31M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 21-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 22-22
+Fra:1 Mem:48.79M (Peak 114.75M) | Time:00:03.61 | Compositing | Operation 23-22
+Saved: '/workspace/2026-10-22-aero-engine-build/previews/prev_05a_cut.png'
+Time: 00:03.72 (Saving: 00:00.10)
+
+[engine] objects=109 verts=185280 build=0.4s mode=preview view=cut span=110
+   Core_Casing_Fwd: 11110
+   Core_Casing_Aft: 8888
+   Fan_Blades_x18: 6048
+   Nacelle_360: 3312
+   LPT_R7_x98: 3168
+   LPT_R6_x94: 3024
+   LPT_N7_x92: 2928
+   CoreCowl_360: 2880
+[engine] rendered /workspace/2026-10-22-aero-engine-build/previews/prev_05a_cut.png 640x360 samples=16 in 3.7s
+
+Blender quit
