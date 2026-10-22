@@ -39,6 +39,7 @@ R_FAN = LEAP['fan_diameter'] / 2
 # cutaway wedge: angle measured in the YZ plane, 0 deg = +Y, 90 deg = +Z
 CUT_SPAN = math.radians(float(kv.get('span', 110)))
 CUT_CENTER = math.radians(float(kv.get('center', 135)))   # top-left as seen from the -Y / front-left camera
+PYLON = kv.get('pylon', '0') == '1'                         # P2 pylon stub: built, excluded from renders by default
 FAN_FULL = True                                             # keep the whole fan ring (Raymond's decision)
 SIDE = (MODE == 'side')
 if SIDE:                                                    # half section facing the -Y ortho camera
@@ -207,7 +208,7 @@ def cylinder_between(bm, p0, p1, rad, nv=10):
 
 # ------------------------------------------------------------------ materials (restrained, product-photo palette)
 M = dict(
-    nacelle=new_mat('Nacelle_Paint', (0.50, 0.505, 0.50), rough=0.30, coat=0.6),
+    nacelle=new_mat('Nacelle_Paint', (0.42, 0.425, 0.42), rough=0.30, coat=0.6),
     duct=new_mat('BypassDuct_SatinAlu', (0.62, 0.63, 0.64), rough=0.42, metal=1.0),
     spinner=None,
     fan=new_mat('Fan_Composite', (0.075, 0.08, 0.09), rough=0.28, metal=0.35, coat=0.8),
@@ -215,7 +216,7 @@ M = dict(
     hpc=new_mat('HPC_Steel', (0.80, 0.81, 0.83), rough=0.20, metal=1.0),
     stator=new_mat('Stator_DarkSteel', (0.42, 0.43, 0.45), rough=0.32, metal=1.0),
     comb=new_mat('Combustor_Inconel', (0.62, 0.46, 0.32), rough=0.33, metal=1.0),
-    flame=new_mat('Combustor_Glow', (1.0, 0.45, 0.12), rough=0.5, emit=(1.0, 0.42, 0.10), estr=7.0),
+    flame=new_mat('Combustor_Glow', (1.0, 0.45, 0.12), rough=0.5, emit=(1.0, 0.42, 0.10), estr=16.0),
     hpt=new_mat('HPT_DarkGold', (0.78, 0.56, 0.26), rough=0.28, metal=1.0),
     lpt=new_mat('LPT_TemperedBlue', (0.36, 0.40, 0.52), rough=0.30, metal=1.0),
     nozzle=new_mat('Exhaust_HeatTint', (0.30, 0.27, 0.25), rough=0.38, metal=1.0),
@@ -226,7 +227,7 @@ M = dict(
     bearing=new_mat('Bearing_Brass', (0.72, 0.58, 0.32), rough=0.30, metal=1.0),
     cap=new_mat('CutFace_Coral', (0.62, 0.13, 0.08), rough=0.55),
     cap_light=new_mat('CutFace_Light', (0.78, 0.55, 0.45), rough=0.6),
-    backdrop=new_mat('Backdrop', (0.022, 0.023, 0.026), rough=0.55),
+    backdrop=new_mat('Backdrop', (0.008, 0.0084, 0.0095), rough=0.85),
     ref=new_mat('RefLine', (1, 0.1, 0.1), emit=(1, 0.15, 0.1), estr=4.0),
 )
 
@@ -253,6 +254,7 @@ def spinner_material():
     m.diffuse_color = (0.05, 0.05, 0.05, 1)
     return m
 M['spinner'] = spinner_material()
+M['backdrop'].node_tree.nodes['Principled BSDF'].inputs['Specular IOR Level'].default_value = 0.15
 
 # ------------------------------------------------------------------ collections (10 named parts + structure)
 C_FAN = sub('01_Fan'); C_LPC = sub('02_LPC_Booster'); C_HPC = sub('03_HPC'); C_CMB = sub('04_Combustor')
@@ -291,6 +293,12 @@ inlet = [(0.0, R_FAN + 0.005), (-0.15, 0.975), (-0.40, 0.948), (-0.62, 0.932), (
 duct_top = [(x, r + 0.03) for (x, r) in DUCT]
 nac_prof = nac_outer + [duct_top[-1]] + list(reversed(duct_top[:-1])) + inlet
 revolve_shell('Nacelle', 'Nacelle', nac_prof, M['nacelle'], M['cap_light'])
+if not SIDE:
+    seam = new_mat('Nacelle_Seam', (0.04, 0.04, 0.045), rough=0.6)
+    for i, xs in enumerate((0.0, 1.32)):
+        ro = interp(nac_outer, xs)
+        revolve(f'Nacelle_SeamLine_{i+1}', [(xs - 0.004, ro - 0.01), (xs + 0.004, ro - 0.01), (xs + 0.004, ro + 0.0015),
+                (xs - 0.004, ro + 0.0015)], seam, seam, SHELL['Nacelle'][0], full=True)
 revolve_shell('BypassDuct', 'BypassDuct_OuterWall', shell(DUCT, 0.03), M['duct'], M['cap_light'])
 cowl_prof = COWL + [(x, r - 0.02) for (x, r) in reversed(COWL[1:])] + [(0.565, 0.492)]
 revolve_shell('BypassDuct', 'CoreCowl', cowl_prof, M['duct'], M['cap_light'])
@@ -457,8 +465,9 @@ for i in range(nb):
 bmesh.ops.remove_doubles(bm, verts=bm.verts[:], dist=1e-4)
 mesh_obj('Cyclorama', bm, [M['backdrop']], C_STU, sharp_deg=80)
 
-def area(name, c, loc, target, power, size, color=(1, 1, 1), shape='RECTANGLE', size_y=None):
+def area(name, c, loc, target, power, size, color=(1, 1, 1), shape='RECTANGLE', size_y=None, spread=180):
     ld = bpy.data.lights.new(name, 'AREA'); ld.energy = power; ld.color = color; ld.shape = shape
+    ld.spread = math.radians(spread)
     ld.size = size
     if size_y: ld.size_y = size_y
     o = bpy.data.objects.new(name, ld); o.location = loc
@@ -524,7 +533,7 @@ for sc, studio, excl in ((SC_CUT, C_SCUT, '_360'), (SC_EXT, C_SEXT, '_cut')):
     sc.world = W
     vl = sc.view_layers[0]
     for name in list(COLLS):
-        if name.endswith(excl) or (sc is SC_CUT and name == '12_Pylon_ext'):
+        if name.endswith(excl) or (name == '12_Pylon_ext' and (sc is SC_CUT or not PYLON)):
             lc = find_lc(vl.layer_collection, name)
             if lc: lc.exclude = True
 SC_CUT.camera = CAM_CUT; SC_EXT.camera = CAM_EXT
