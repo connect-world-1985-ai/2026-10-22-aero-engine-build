@@ -225,8 +225,8 @@ M = dict(
     casing=new_mat('Casing_Gunmetal', (0.20, 0.21, 0.22), rough=0.40, metal=1.0),
     disc=new_mat('Disc_Steel', (0.55, 0.56, 0.58), rough=0.30, metal=1.0),
     bearing=new_mat('Bearing_Brass', (0.72, 0.58, 0.32), rough=0.30, metal=1.0),
-    cap=new_mat('CutFace_Coral', (0.62, 0.13, 0.08), rough=0.55),
-    cap_light=new_mat('CutFace_Light', (0.78, 0.55, 0.45), rough=0.6),
+    cap=new_mat('CutFace_Coral', (0.50, 0.095, 0.06), rough=0.55),
+    cap_light=new_mat('CutFace_Light', (0.55, 0.42, 0.36), rough=0.6),
     backdrop=new_mat('Backdrop', (0.008, 0.0084, 0.0095), rough=0.85),
     ref=new_mat('RefLine', (1, 0.1, 0.1), emit=(1, 0.15, 0.1), estr=4.0),
 )
@@ -254,6 +254,8 @@ def spinner_material():
     m.diffuse_color = (0.05, 0.05, 0.05, 1)
     return m
 M['spinner'] = spinner_material()
+M['lpshaft_cap'] = new_mat('CutFace_LPShaft', (0.12, 0.30, 0.75), rough=0.5)
+M['hpshaft_cap'] = new_mat('CutFace_HPShaft', (0.95, 0.50, 0.15), rough=0.5)
 M['backdrop'].node_tree.nodes['Principled BSDF'].inputs['Specular IOR Level'].default_value = 0.15
 
 # ------------------------------------------------------------------ collections (10 named parts + structure)
@@ -422,11 +424,11 @@ for i, xb in enumerate((0.52, 1.13, 2.50, 3.27)):          # bearing housings (P
 
 # ------------------------------------------------------------------ 10 dual-rotor shafts
 revolve('LP_Shaft', shell([(0.40, 0.040), (0.55, 0.040), (3.20, 0.040), (3.40, 0.040)], 0.022),
-        M['lpshaft'], M['cap'], C_SHF, seg_scale=0.7)
-revolve('LP_Shaft_TurbineCone', [(3.12, 0.065), (3.12, 0.085), (2.98, 0.27), (2.985, 0.258)], M['lpshaft'], M['cap'], C_SHF)
-revolve('HP_Shaft', shell([(1.10, 0.082), (2.52, 0.082)], 0.016), M['hpshaft'], M['cap'], C_SHF, seg_scale=0.7)
-revolve('HP_Shaft_FwdCone', [(1.10, 0.096), (1.18, 0.20), (1.19, 0.20), (1.115, 0.096)], M['hpshaft'], M['cap'], C_SHF)
-revolve('HP_Shaft_AftCone', [(2.26, 0.22), (2.40, 0.098), (2.415, 0.098), (2.275, 0.22)], M['hpshaft'], M['cap'], C_SHF)
+        M['lpshaft'], M['lpshaft_cap'], C_SHF, seg_scale=0.7)
+revolve('LP_Shaft_TurbineCone', [(3.12, 0.065), (3.12, 0.085), (2.98, 0.27), (2.985, 0.258)], M['lpshaft'], M['lpshaft_cap'], C_SHF)
+revolve('HP_Shaft', shell([(1.10, 0.082), (2.52, 0.082)], 0.016), M['hpshaft'], M['hpshaft_cap'], C_SHF, seg_scale=0.7)
+revolve('HP_Shaft_FwdCone', [(1.10, 0.096), (1.18, 0.20), (1.19, 0.20), (1.115, 0.096)], M['hpshaft'], M['hpshaft_cap'], C_SHF)
+revolve('HP_Shaft_AftCone', [(2.26, 0.22), (2.40, 0.098), (2.415, 0.098), (2.275, 0.22)], M['hpshaft'], M['hpshaft_cap'], C_SHF)
 
 # ------------------------------------------------------------------ 07 exhaust: core nozzle + plug
 revolve_shell('Exhaust', 'CoreNozzle', [(3.25, 0.455), (3.56, 0.428), (3.56, 0.436), (3.25, 0.50)], M['nozzle'], M['cap'])
@@ -491,13 +493,14 @@ CENTER = Vector((1.55, 0, 0))
 area('Cut_Key', C_SCUT, (-1.5, -4.5, 5.0), CENTER, 2000, 3.5, (1.0, 0.97, 0.93), size_y=2.5)
 area('Cut_Fill', C_SCUT, (-3.5, 2.0, 1.0), CENTER, 500, 4.0, (0.85, 0.9, 1.0))
 area('Cut_Rim', C_SCUT, (4.5, 3.5, 3.5), CENTER, 1600, 3.0, (0.9, 0.95, 1.0))
-area('Cut_InteriorFill', C_SCUT, (1.6, -1.6, 2.2), (1.7, 0.0, 0.0), 380, 1.4, (1.0, 0.96, 0.9), size_y=0.6)
+area('Cut_InteriorFill', C_SCUT, (1.7, -1.5, 2.3), (1.8, 0.0, 0.0), 750, 2.6, (1.0, 0.96, 0.9), size_y=0.8)
 area('Cut_Floor_Kick', C_SCUT, (1.6, -3.0, -1.2), CENTER, 120, 4.0, (0.8, 0.85, 1.0), size_y=1.0)
 # Exterior lighting
 area('Ext_Key', C_SEXT, (-3.5, -5.0, 3.5), CENTER, 1700, 4.0, (1.0, 0.97, 0.93), size_y=2.5)
 area('Ext_Fill', C_SEXT, (-4.0, 3.5, 0.0), CENTER, 600, 4.0, (0.85, 0.9, 1.0))
 area('Ext_Rim', C_SEXT, (5.0, 2.5, 3.5), CENTER, 2000, 3.0, (0.9, 0.95, 1.0))
 area('Ext_Top', C_SEXT, (1.5, 0.0, 5.0), CENTER, 900, 6.0, (1, 1, 1), size_y=2.0)
+area('Ext_AftKick', C_SEXT, (4.8, -3.6, 0.6), (3.3, 0, 0), 500, 2.0, (0.9, 0.95, 1.0))
 area('Ext_Inlet', C_SEXT, (-3.2, -1.6, 0.2), (0.4, 0, 0), 400, 1.5, (1.0, 0.97, 0.93))
 
 CAM_CUT = camera('Cam_Cutaway', C_SCUT, (float(kv.get('cx', 0.2)), float(kv.get('cy', -6.4)), float(kv.get('cz', 4.7))), (1.5, 0.05, -0.12), float(kv.get('lens', 50)))
