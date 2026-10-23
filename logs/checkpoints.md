@@ -27,3 +27,8 @@ ETA: finals ~05:00 on 10-23, on track; no accuracy cuts needed.
 - Secret scan: gitleaks 8.21.2 on the tree and the full history found no leaks, and the manual grep was clean. See logs/secret-scan.txt.
 - Git: local commits only, no remote. engine.blend and both final PNGs (2.0 and 1.7 MB) are committed; previews are ignored except previews/side_final.png.
 - Delivered about 6 h ahead of the 05:00 target. Nothing from P0/P1 was cut; the P2 pylon is built but excluded from the exterior render.
+
+## (e) Colour tweak, local only, NOT pushed (2026-10-23 08:19, Asia/Shanghai)
+- Cut faces are now deep red instead of salmon: CutFace_DeepRed, specular 0.1, no emission, renders at about #8C2621 to #A10702. Fan blades are now dark charcoal composite instead of light grey: non-metallic, no coat, low specular, slight sheen.
+- Previews: previews/tweak_cut.png and previews/tweak_ext.png (640x360, 32 samples), previews/mid_tweak5_cut.png (1280x720 check), and the iteration files prev_tweak1/2, mid_tweak3/4 with crops.
+- Finals re-rendered at the same settings (1920x1080, 256 adaptive samples, threshold 0.015, 6 threads): cutaway 262.1 s, exterior 184.2 s. engine.blend regenerated; both scenes render their own camera (previews/blendcheck_tweak.png).

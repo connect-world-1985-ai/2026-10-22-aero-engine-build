@@ -2,126 +2,127 @@ Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 01:31:14)
 Fra:1 Mem:36.65M (Peak 36.65M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Spinner_FanHub
 Fra:1 Mem:36.66M (Peak 36.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_R1_x64
 Fra:1 Mem:38.73M (Peak 38.73M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Cyclorama
-Fra:1 Mem:40.21M (Peak 40.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_4
-Fra:1 Mem:40.20M (Peak 40.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_3
-Fra:1 Mem:40.56M (Peak 40.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_2
-Fra:1 Mem:40.69M (Peak 40.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_1
-Fra:1 Mem:40.97M (Peak 40.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | TurbineRearFrame_Struts
-Fra:1 Mem:41.31M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | TurbineCenterFrame_Vanes
-Fra:1 Mem:41.24M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | FanHubFrame_Struts
-Fra:1 Mem:41.10M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | FanHubFrame_InnerWall
-Fra:1 Mem:41.19M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc1
-Fra:1 Mem:40.97M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S2_x80
-Fra:1 Mem:42.78M (Peak 42.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_R2_x64
-Fra:1 Mem:42.82M (Peak 42.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc2
-Fra:1 Mem:43.19M (Peak 43.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S3_x80
-Fra:1 Mem:42.83M (Peak 43.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Core_Casing_Aft
-Fra:1 Mem:43.25M (Peak 43.25M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_R3_x64
-Fra:1 Mem:43.29M (Peak 43.29M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc3
-Fra:1 Mem:43.97M (Peak 43.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S4_x80
-Fra:1 Mem:44.00M (Peak 44.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Drum
-Fra:1 Mem:43.95M (Peak 44.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_SpoolCone
-Fra:1 Mem:44.91M (Peak 44.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_IGV_x47
-Fra:1 Mem:45.30M (Peak 45.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R1_x37
-Fra:1 Mem:45.54M (Peak 45.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc1
-Fra:1 Mem:46.57M (Peak 46.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S2_x50
-Fra:1 Mem:46.49M (Peak 46.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R2_x40
-Fra:1 Mem:46.08M (Peak 46.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc2
-Fra:1 Mem:46.69M (Peak 46.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S3_x53
-Fra:1 Mem:46.37M (Peak 46.69M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R3_x43
-Fra:1 Mem:46.88M (Peak 46.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc3
-Fra:1 Mem:47.21M (Peak 47.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S4_x56
-Fra:1 Mem:47.92M (Peak 47.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R4_x46
-Fra:1 Mem:47.77M (Peak 47.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc4
-Fra:1 Mem:47.08M (Peak 47.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S5_x59
-Fra:1 Mem:47.04M (Peak 47.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R5_x49
-Fra:1 Mem:48.49M (Peak 48.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc5
-Fra:1 Mem:48.83M (Peak 48.83M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S6_x62
-Fra:1 Mem:48.99M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R6_x52
-Fra:1 Mem:47.54M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc6
-Fra:1 Mem:47.78M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S7_x65
-Fra:1 Mem:47.76M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Core_Casing_Fwd
-Fra:1 Mem:48.28M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R7_x55
-Fra:1 Mem:48.22M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc7
-Fra:1 Mem:48.44M (Peak 48.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S8_x68
-Fra:1 Mem:49.55M (Peak 49.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R8_x58
-Fra:1 Mem:50.12M (Peak 50.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc8
-Fra:1 Mem:50.21M (Peak 50.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S9_x71
-Fra:1 Mem:51.17M (Peak 51.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R9_x61
-Fra:1 Mem:51.28M (Peak 51.28M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc9
-Fra:1 Mem:51.99M (Peak 51.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S10_x74
-Fra:1 Mem:52.03M (Peak 52.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R10_x64
-Fra:1 Mem:52.56M (Peak 52.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc10
-Fra:1 Mem:52.89M (Peak 52.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Drum
-Fra:1 Mem:52.77M (Peak 52.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_Liner
-Fra:1 Mem:53.46M (Peak 53.46M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_FlameZone
-Fra:1 Mem:54.32M (Peak 54.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_OuterCase
-Fra:1 Mem:53.86M (Peak 54.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_InnerCase
-Fra:1 Mem:54.24M (Peak 54.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Diffuser
-Fra:1 Mem:53.97M (Peak 54.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_FuelNozzles_x19
-Fra:1 Mem:54.01M (Peak 54.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_N1_x34
-Fra:1 Mem:54.61M (Peak 54.61M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_R1_x52
-Fra:1 Mem:54.84M (Peak 54.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Disc1
-Fra:1 Mem:54.33M (Peak 54.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_N2_x42
-Fra:1 Mem:54.39M (Peak 54.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_R2_x52
-Fra:1 Mem:54.44M (Peak 54.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Disc2
-Fra:1 Mem:55.34M (Peak 55.34M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Drum
-Fra:1 Mem:55.39M (Peak 55.39M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R1_x74
-Fra:1 Mem:55.86M (Peak 55.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc1
-Fra:1 Mem:54.81M (Peak 55.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft_AftCone
-Fra:1 Mem:55.19M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N2_x72
-Fra:1 Mem:55.23M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft_FwdCone
-Fra:1 Mem:55.45M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R2_x78
-Fra:1 Mem:55.80M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft
-Fra:1 Mem:55.40M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc2
-Fra:1 Mem:55.44M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LP_Shaft_TurbineCone
-Fra:1 Mem:55.52M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N3_x76
-Fra:1 Mem:55.54M (Peak 55.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R3_x82
-Fra:1 Mem:55.91M (Peak 55.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc3
-Fra:1 Mem:56.03M (Peak 56.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N4_x80
-Fra:1 Mem:56.29M (Peak 56.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LP_Shaft
-Fra:1 Mem:56.82M (Peak 56.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R4_x86
-Fra:1 Mem:57.00M (Peak 57.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_SeamLine_2
-Fra:1 Mem:57.79M (Peak 57.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_SeamLine_1
-Fra:1 Mem:58.00M (Peak 58.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc4
-Fra:1 Mem:57.97M (Peak 58.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_360
-Fra:1 Mem:58.12M (Peak 58.12M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N5_x84
-Fra:1 Mem:59.26M (Peak 59.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R5_x90
-Fra:1 Mem:59.27M (Peak 59.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc5
-Fra:1 Mem:59.00M (Peak 59.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N6_x88
-Fra:1 Mem:59.49M (Peak 59.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R6_x94
-Fra:1 Mem:59.98M (Peak 59.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc6
-Fra:1 Mem:60.65M (Peak 60.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bypass_OGV
-Fra:1 Mem:60.52M (Peak 60.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N7_x92
-Fra:1 Mem:61.06M (Peak 61.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R7_x98
-Fra:1 Mem:60.72M (Peak 61.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc7
-Fra:1 Mem:60.65M (Peak 61.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | CoreCowl_360
-Fra:1 Mem:61.24M (Peak 61.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Drum
-Fra:1 Mem:61.37M (Peak 61.37M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | CoreNozzle_360
-Fra:1 Mem:61.87M (Peak 61.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | ExhaustPlug_360
-Fra:1 Mem:62.80M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | BypassDuct_OuterWall_360
-Fra:1 Mem:61.80M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Initializing
-Fra:1 Mem:57.29M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Waiting for render to start
-Fra:1 Mem:57.29M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Loading render kernels (may take a few minutes the first time)
-Fra:1 Mem:57.29M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Updating Scene
-Fra:1 Mem:57.29M (Peak 62.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Updating Shaders
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Procedurals
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Background
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Camera
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Meshes Flags
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Objects
-Fra:1 Mem:57.39M (Peak 62.80M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Objects | Copying Transformations to device
-Fra:1 Mem:57.42M (Peak 62.80M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Objects | Applying Static Transformations
-Fra:1 Mem:57.42M (Peak 62.80M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Particle Systems
-Fra:1 Mem:57.42M (Peak 62.80M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Particle Systems | Copying Particles to device
-Fra:1 Mem:57.42M (Peak 62.80M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Meshes
-Fra:1 Mem:62.76M (Peak 62.80M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:40.22M (Peak 40.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_4
+Fra:1 Mem:40.77M (Peak 40.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_3
+Fra:1 Mem:41.31M (Peak 41.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_2
+Fra:1 Mem:41.32M (Peak 41.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc1
+Fra:1 Mem:41.15M (Peak 41.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bearing_1
+Fra:1 Mem:40.95M (Peak 41.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S2_x80
+Fra:1 Mem:40.90M (Peak 41.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | TurbineRearFrame_Struts
+Fra:1 Mem:41.48M (Peak 41.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | TurbineCenterFrame_Vanes
+Fra:1 Mem:41.96M (Peak 41.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | FanHubFrame_Struts
+Fra:1 Mem:41.97M (Peak 41.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | FanHubFrame_InnerWall
+Fra:1 Mem:41.94M (Peak 41.97M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_R2_x64
+Fra:1 Mem:41.99M (Peak 41.99M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc2
+Fra:1 Mem:42.42M (Peak 42.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S3_x80
+Fra:1 Mem:43.00M (Peak 43.00M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_R3_x64
+Fra:1 Mem:43.03M (Peak 43.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Disc3
+Fra:1 Mem:43.30M (Peak 43.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_S4_x80
+Fra:1 Mem:44.48M (Peak 44.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Core_Casing_Aft
+Fra:1 Mem:44.07M (Peak 44.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_Drum
+Fra:1 Mem:45.56M (Peak 45.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPC_SpoolCone
+Fra:1 Mem:44.99M (Peak 45.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_IGV_x47
+Fra:1 Mem:44.55M (Peak 45.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R1_x37
+Fra:1 Mem:44.64M (Peak 45.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc1
+Fra:1 Mem:45.11M (Peak 45.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S2_x50
+Fra:1 Mem:46.03M (Peak 46.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R2_x40
+Fra:1 Mem:45.81M (Peak 46.03M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc2
+Fra:1 Mem:46.33M (Peak 46.33M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S3_x53
+Fra:1 Mem:46.84M (Peak 46.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R3_x43
+Fra:1 Mem:46.82M (Peak 46.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc3
+Fra:1 Mem:47.30M (Peak 47.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S4_x56
+Fra:1 Mem:47.79M (Peak 47.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R4_x46
+Fra:1 Mem:47.62M (Peak 47.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc4
+Fra:1 Mem:47.22M (Peak 47.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S5_x59
+Fra:1 Mem:47.23M (Peak 47.79M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R5_x49
+Fra:1 Mem:48.45M (Peak 48.45M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc5
+Fra:1 Mem:48.53M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S6_x62
+Fra:1 Mem:47.60M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R6_x52
+Fra:1 Mem:47.67M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Core_Casing_Fwd
+Fra:1 Mem:47.72M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc6
+Fra:1 Mem:47.81M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S7_x65
+Fra:1 Mem:48.36M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R7_x55
+Fra:1 Mem:48.37M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc7
+Fra:1 Mem:48.46M (Peak 48.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S8_x68
+Fra:1 Mem:48.82M (Peak 48.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R8_x58
+Fra:1 Mem:48.92M (Peak 48.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc8
+Fra:1 Mem:49.41M (Peak 49.41M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S9_x71
+Fra:1 Mem:50.09M (Peak 50.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R9_x61
+Fra:1 Mem:51.15M (Peak 51.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc9
+Fra:1 Mem:50.89M (Peak 51.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_S10_x74
+Fra:1 Mem:51.84M (Peak 51.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_R10_x64
+Fra:1 Mem:51.81M (Peak 51.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Disc10
+Fra:1 Mem:51.88M (Peak 51.88M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Drum
+Fra:1 Mem:51.93M (Peak 51.93M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_Liner
+Fra:1 Mem:53.49M (Peak 53.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_FlameZone
+Fra:1 Mem:53.48M (Peak 53.49M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_OuterCase
+Fra:1 Mem:54.09M (Peak 54.09M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_InnerCase
+Fra:1 Mem:54.63M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPC_Diffuser
+Fra:1 Mem:54.08M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Combustor_FuelNozzles_x19
+Fra:1 Mem:54.02M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_N1_x34
+Fra:1 Mem:54.05M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_R1_x52
+Fra:1 Mem:54.33M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Disc1
+Fra:1 Mem:54.44M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_N2_x42
+Fra:1 Mem:54.44M (Peak 54.63M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_R2_x52
+Fra:1 Mem:55.12M (Peak 55.12M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Disc2
+Fra:1 Mem:55.32M (Peak 55.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HPT_Drum
+Fra:1 Mem:55.85M (Peak 55.85M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N1_x68
+Fra:1 Mem:56.28M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R1_x74
+Fra:1 Mem:56.19M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc1
+Fra:1 Mem:54.90M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N2_x72
+Fra:1 Mem:55.04M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft_AftCone
+Fra:1 Mem:55.65M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft_FwdCone
+Fra:1 Mem:55.35M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R2_x78
+Fra:1 Mem:55.48M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc2
+Fra:1 Mem:55.62M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N3_x76
+Fra:1 Mem:55.64M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | HP_Shaft
+Fra:1 Mem:55.69M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R3_x82
+Fra:1 Mem:55.71M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc3
+Fra:1 Mem:56.17M (Peak 56.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LP_Shaft_TurbineCone
+Fra:1 Mem:56.35M (Peak 56.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N4_x80
+Fra:1 Mem:56.53M (Peak 56.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LP_Shaft
+Fra:1 Mem:56.63M (Peak 56.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R4_x86
+Fra:1 Mem:57.11M (Peak 57.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_SeamLine_2
+Fra:1 Mem:57.74M (Peak 57.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_SeamLine_1
+Fra:1 Mem:57.41M (Peak 57.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Nacelle_360
+Fra:1 Mem:57.44M (Peak 57.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc4
+Fra:1 Mem:58.59M (Peak 58.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N5_x84
+Fra:1 Mem:58.88M (Peak 58.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R5_x90
+Fra:1 Mem:59.46M (Peak 59.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc5
+Fra:1 Mem:58.57M (Peak 59.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N6_x88
+Fra:1 Mem:59.59M (Peak 59.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | Bypass_OGV
+Fra:1 Mem:59.85M (Peak 59.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R6_x94
+Fra:1 Mem:60.34M (Peak 60.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc6
+Fra:1 Mem:60.35M (Peak 60.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_N7_x92
+Fra:1 Mem:60.39M (Peak 60.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | CoreCowl_360
+Fra:1 Mem:60.18M (Peak 60.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_R7_x98
+Fra:1 Mem:60.07M (Peak 60.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Disc7
+Fra:1 Mem:60.07M (Peak 60.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | LPT_Drum
+Fra:1 Mem:61.95M (Peak 61.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | CoreNozzle_360
+Fra:1 Mem:62.28M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | ExhaustPlug_360
+Fra:1 Mem:62.26M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Synchronizing object | BypassDuct_OuterWall_360
+Fra:1 Mem:61.80M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Initializing
+Fra:1 Mem:57.29M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Waiting for render to start
+Fra:1 Mem:57.29M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:57.29M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Updating Scene
+Fra:1 Mem:57.29M (Peak 62.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Exterior, ViewLayer | Updating Shaders
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Procedurals
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Background
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Camera
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Objects
+Fra:1 Mem:57.39M (Peak 62.28M) | Time:00:00.02 | Mem:0.02M, Peak:0.02M | Exterior, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:57.42M (Peak 62.28M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:57.42M (Peak 62.28M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Particle Systems
+Fra:1 Mem:57.42M (Peak 62.28M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:57.42M (Peak 62.28M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Meshes
+Fra:1 Mem:62.76M (Peak 62.76M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | Exterior, ViewLayer | Updating Mesh | Computing attributes
 Fra:1 Mem:66.00M (Peak 66.00M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | Exterior, ViewLayer | Updating Mesh | Copying Attributes to device
 Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.03 | Mem:3.27M, Peak:3.27M | Exterior, ViewLayer | Updating Scene BVH | Building
 Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.03 | Mem:3.27M, Peak:3.27M | Exterior, ViewLayer | Updating Scene BVH | Building BVH
-Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.03 | Mem:13.96M, Peak:13.96M | Exterior, ViewLayer | Updating Scene BVH | Building BVH 0%
-Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.05 | Mem:25.59M, Peak:36.27M | Exterior, ViewLayer | Updating Scene BVH | Copying BVH to device
-Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.05 | Mem:25.59M, Peak:36.27M | Exterior, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.04 | Mem:13.96M, Peak:13.96M | Exterior, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.06 | Mem:25.59M, Peak:36.27M | Exterior, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:65.99M (Peak 66.00M) | Time:00:00.06 | Mem:25.59M, Peak:36.27M | Exterior, ViewLayer | Updating Mesh | Computing normals
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:25.59M, Peak:36.27M | Exterior, ViewLayer | Updating Mesh | Copying Mesh to device
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.85M, Peak:40.85M | Exterior, ViewLayer | Updating Objects Flags
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.85M, Peak:40.85M | Exterior, ViewLayer | Updating Primitive Offsets
@@ -130,94 +131,94 @@ Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.85M, Peak:40.85M | Exter
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.85M, Peak:40.85M | Exterior, ViewLayer | Updating Lookup Tables
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.93M, Peak:40.93M | Exterior, ViewLayer | Updating Lights
 Fra:1 Mem:81.25M (Peak 81.25M) | Time:00:00.06 | Mem:40.93M, Peak:40.93M | Exterior, ViewLayer | Updating Lights | Computing tree
-Fra:1 Mem:82.00M (Peak 82.50M) | Time:00:00.07 | Mem:41.68M, Peak:41.68M | Exterior, ViewLayer | Updating Integrator
-Fra:1 Mem:82.00M (Peak 82.50M) | Time:00:00.07 | Mem:41.68M, Peak:41.68M | Exterior, ViewLayer | Updating Film
-Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.07 | Mem:41.60M, Peak:41.68M | Exterior, ViewLayer | Updating Lookup Tables
-Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.07 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Updating Baking
-Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.07 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Updating Device | Writing constant memory
-Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.07 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
-Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.07 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 0/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:00.79 | Remaining:06:00.89 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 1/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:22.03 | Remaining:05:14.88 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 33/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:43.05 | Remaining:04:56.93 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 64/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:51.00 | Remaining:04:31.31 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 80/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:58.30 | Remaining:04:08.83 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 96/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:05.48 | Remaining:03:50.22 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 112/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:12.23 | Remaining:03:33.21 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 128/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:18.70 | Remaining:03:17.78 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 144/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:25.05 | Remaining:03:03.88 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 160/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:31.37 | Remaining:02:51.31 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 176/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:04:29.21 | Remaining:07:20.50 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 192/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:04:36.02 | Remaining:06:35.67 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 208/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:04:42.50 | Remaining:05:55.86 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 224/256
-Fra:1 Mem:158.63M (Peak 158.63M) | Time:04:48.21 | Remaining:05:19.65 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 240/256
-Fra:1 Mem:158.63M (Peak 234.63M) | Time:04:54.28 | Remaining:04:47.60 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 256/256
-Fra:1 Mem:158.63M (Peak 234.63M) | Time:04:54.29 | Remaining:04:47.60 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 256/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:04:54.95 | Remaining:04:46.26 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 1/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:28.00 | Remaining:03:24.16 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 64/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:31.49 | Remaining:03:03.24 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 80/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:34.77 | Remaining:02:43.65 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 96/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:37.76 | Remaining:02:25.23 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 112/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:40.56 | Remaining:02:07.91 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 128/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:43.15 | Remaining:01:51.59 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 144/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:45.67 | Remaining:01:36.21 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 160/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:48.02 | Remaining:01:21.68 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 176/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:50.25 | Remaining:01:07.92 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 192/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:52.36 | Remaining:00:54.89 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 208/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:54.35 | Remaining:00:42.52 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 224/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:56.20 | Remaining:00:30.75 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 240/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:58.21 | Remaining:00:19.58 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 256/256
-Fra:1 Mem:149.10M (Peak 234.63M) | Time:05:58.21 | Remaining:00:19.58 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 256/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:05:58.24 | Remaining:00:19.54 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 1/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.34 | Remaining:00:16.95 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 64/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.34 | Remaining:00:16.27 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 80/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.34 | Remaining:00:15.59 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 96/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.35 | Remaining:00:14.91 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 112/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.35 | Remaining:00:14.24 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 128/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.35 | Remaining:00:13.56 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 144/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.35 | Remaining:00:12.89 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 160/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.35 | Remaining:00:12.23 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 176/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.36 | Remaining:00:12.23 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 0/256
-Fra:1 Mem:86.51M (Peak 234.63M) | Time:06:00.36 | Remaining:00:12.23 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 0/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:00.39 | Remaining:00:12.19 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 1/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.19 | Remaining:00:09.96 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 64/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.19 | Remaining:00:09.39 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 80/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.20 | Remaining:00:08.81 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 96/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.20 | Remaining:00:08.24 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 112/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.20 | Remaining:00:07.66 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 128/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.20 | Remaining:00:07.09 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 144/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.20 | Remaining:00:06.53 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 160/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.21 | Remaining:00:06.53 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 0/256
-Fra:1 Mem:85.95M (Peak 234.63M) | Time:06:02.22 | Remaining:00:06.53 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Finished
-Fra:1 Mem:38.76M (Peak 234.63M) | Time:06:02.23 | Remaining:00:06.53 | Mem:0.00M, Peak:118.28M | Exterior | Reading full buffer from disk
-Fra:1 Mem:189.05M (Peak 234.63M) | Time:06:02.42 | Remaining:00:06.53 | Mem:0.00M, Peak:118.28M | Exterior | ViewLayer | Denoising
-Fra:1 Mem:189.05M (Peak 236.52M) | Time:06:06.64 | Remaining:00:06.61 | Mem:150.29M, Peak:150.29M | Exterior | ViewLayer | Finishing
-Fra:1 Mem:102.01M (Peak 347.26M) | Time:06:06.81 | Compositing
-Fra:1 Mem:102.01M (Peak 347.26M) | Time:06:06.81 | Compositing | Initializing execution
-Fra:1 Mem:102.02M (Peak 347.26M) | Time:06:06.81 | Compositing | Operation 2-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:06.82 | Compositing | Operation 3-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:06.82 | Compositing | Operation 4-22
-Fra:1 Mem:109.99M (Peak 347.26M) | Time:06:06.83 | Compositing | Operation 5-22
-Fra:1 Mem:109.99M (Peak 347.26M) | Time:06:06.83 | Compositing | Operation 6-22
-Fra:1 Mem:109.99M (Peak 347.26M) | Time:06:06.83 | Compositing | Operation 7-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:06.84 | Compositing | Operation 8-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:06.84 | Compositing | Operation 9-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.18 | Compositing | Operation 10-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 11-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 12-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 13-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 14-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 15-22
-Fra:1 Mem:109.99M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 16-22
-Fra:1 Mem:109.99M (Peak 347.26M) | Time:06:07.58 | Compositing | Operation 17-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.59 | Compositing | Operation 18-22
-Fra:1 Mem:165.36M (Peak 347.26M) | Time:06:07.59 | Compositing | Operation 19-22
-Fra:1 Mem:165.36M (Peak 347.26M) | Time:06:07.59 | Compositing | Operation 20-22
-Fra:1 Mem:165.36M (Peak 347.26M) | Time:06:07.59 | Compositing | Operation 21-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.60 | Compositing | Operation 22-22
-Fra:1 Mem:133.72M (Peak 347.26M) | Time:06:07.60 | Compositing | Operation 23-22
+Fra:1 Mem:82.00M (Peak 82.50M) | Time:00:00.08 | Mem:41.68M, Peak:41.68M | Exterior, ViewLayer | Updating Integrator
+Fra:1 Mem:82.00M (Peak 82.50M) | Time:00:00.08 | Mem:41.68M, Peak:41.68M | Exterior, ViewLayer | Updating Film
+Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.08 | Mem:41.60M, Peak:41.68M | Exterior, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.08 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Updating Baking
+Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.08 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.08 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:82.01M (Peak 82.50M) | Time:00:00.08 | Mem:41.69M, Peak:41.69M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 0/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:00.79 | Remaining:06:00.96 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 1/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:22.27 | Remaining:05:18.30 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 33/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:42.84 | Remaining:04:55.52 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 64/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:50.31 | Remaining:04:27.63 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 80/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:00:57.34 | Remaining:04:04.70 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 96/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:04.04 | Remaining:03:45.15 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 112/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:10.37 | Remaining:03:27.72 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 128/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:16.55 | Remaining:03:12.37 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 144/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:22.49 | Remaining:02:58.34 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 160/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:28.07 | Remaining:02:45.11 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 176/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:33.45 | Remaining:02:32.83 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 192/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:38.78 | Remaining:02:21.52 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 208/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:43.80 | Remaining:02:10.70 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 224/256
+Fra:1 Mem:158.63M (Peak 158.63M) | Time:01:48.68 | Remaining:02:00.48 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 240/256
+Fra:1 Mem:158.63M (Peak 234.63M) | Time:01:53.48 | Remaining:01:50.85 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 0/4 Tiles, Sample 256/256
+Fra:1 Mem:158.63M (Peak 234.63M) | Time:01:53.48 | Remaining:01:50.85 | Mem:118.28M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 256/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:01:54.00 | Remaining:01:50.59 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 1/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:25.58 | Remaining:01:30.58 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 64/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:29.03 | Remaining:01:22.36 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 80/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:32.32 | Remaining:01:14.44 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 96/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:35.40 | Remaining:01:06.80 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 112/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:38.25 | Remaining:00:59.42 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 128/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:40.95 | Remaining:00:52.32 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 144/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:43.42 | Remaining:00:45.47 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 160/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:45.74 | Remaining:00:38.89 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 176/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:47.93 | Remaining:00:32.56 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 192/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:49.98 | Remaining:00:26.47 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 208/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:51.88 | Remaining:00:20.62 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 224/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:53.69 | Remaining:00:14.99 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 240/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:55.51 | Remaining:00:09.59 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 1/4 Tiles, Sample 256/256
+Fra:1 Mem:149.10M (Peak 234.63M) | Time:02:55.51 | Remaining:00:09.59 | Mem:108.75M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 256/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:55.54 | Remaining:00:09.57 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 1/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.47 | Remaining:00:08.34 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 64/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:08.01 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 80/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:07.67 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 96/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:07.34 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 112/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:07.01 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 128/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:06.68 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 144/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:06.35 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 160/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.48 | Remaining:00:06.02 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 176/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.49 | Remaining:00:06.02 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 2/4 Tiles, Sample 0/256
+Fra:1 Mem:86.51M (Peak 234.63M) | Time:02:57.49 | Remaining:00:06.02 | Mem:46.16M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 0/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:57.52 | Remaining:00:06.00 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 1/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.17 | Remaining:00:04.92 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 64/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.17 | Remaining:00:04.64 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 80/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.17 | Remaining:00:04.35 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 96/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.17 | Remaining:00:04.07 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 112/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.18 | Remaining:00:03.79 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 128/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.18 | Remaining:00:03.51 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 144/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.18 | Remaining:00:03.23 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 160/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.19 | Remaining:00:03.23 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Rendered 3/4 Tiles, Sample 0/256
+Fra:1 Mem:85.95M (Peak 234.63M) | Time:02:59.19 | Remaining:00:03.23 | Mem:45.60M, Peak:118.28M | Exterior, ViewLayer | Finished
+Fra:1 Mem:38.76M (Peak 234.63M) | Time:02:59.19 | Remaining:00:03.23 | Mem:0.00M, Peak:118.28M | Exterior | Reading full buffer from disk
+Fra:1 Mem:189.05M (Peak 234.63M) | Time:02:59.34 | Remaining:00:03.23 | Mem:0.00M, Peak:118.28M | Exterior | ViewLayer | Denoising
+Fra:1 Mem:189.05M (Peak 236.52M) | Time:03:03.13 | Remaining:00:03.30 | Mem:150.29M, Peak:150.29M | Exterior | ViewLayer | Finishing
+Fra:1 Mem:102.01M (Peak 347.26M) | Time:03:03.20 | Compositing
+Fra:1 Mem:102.01M (Peak 347.26M) | Time:03:03.20 | Compositing | Initializing execution
+Fra:1 Mem:102.02M (Peak 347.26M) | Time:03:03.20 | Compositing | Operation 2-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.21 | Compositing | Operation 3-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.21 | Compositing | Operation 4-22
+Fra:1 Mem:109.99M (Peak 347.26M) | Time:03:03.21 | Compositing | Operation 5-22
+Fra:1 Mem:109.99M (Peak 347.26M) | Time:03:03.21 | Compositing | Operation 6-22
+Fra:1 Mem:109.99M (Peak 347.26M) | Time:03:03.21 | Compositing | Operation 7-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.22 | Compositing | Operation 8-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.22 | Compositing | Operation 9-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.54 | Compositing | Operation 10-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 11-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 12-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 13-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 14-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 15-22
+Fra:1 Mem:109.99M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 16-22
+Fra:1 Mem:109.99M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 17-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.94 | Compositing | Operation 18-22
+Fra:1 Mem:165.36M (Peak 347.26M) | Time:03:03.95 | Compositing | Operation 19-22
+Fra:1 Mem:165.36M (Peak 347.26M) | Time:03:03.95 | Compositing | Operation 20-22
+Fra:1 Mem:165.36M (Peak 347.26M) | Time:03:03.95 | Compositing | Operation 21-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.95 | Compositing | Operation 22-22
+Fra:1 Mem:133.72M (Peak 347.26M) | Time:03:03.96 | Compositing | Operation 23-22
 Saved: '/workspace/2026-10-22-aero-engine-build/renders/exterior.png'
-Time: 06:08.02 (Saving: 00:00.41)
+Time: 03:04.20 (Saving: 00:00.24)
 
 [engine] objects=111 verts=186634 build=0.4s mode=still view=ext span=110
    Core_Casing_Fwd: 11110
@@ -228,6 +229,6 @@ Time: 06:08.02 (Saving: 00:00.41)
    LPT_R6_x94: 3024
    LPT_N7_x92: 2928
    CoreCowl_360: 2880
-[engine] rendered /workspace/2026-10-22-aero-engine-build/renders/exterior.png 1920x1080 samples=256 in 368.0s
+[engine] rendered /workspace/2026-10-22-aero-engine-build/renders/exterior.png 1920x1080 samples=256 in 184.2s
 
 Blender quit

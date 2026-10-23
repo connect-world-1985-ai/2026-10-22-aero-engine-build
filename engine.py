@@ -211,7 +211,7 @@ M = dict(
     nacelle=new_mat('Nacelle_Paint', (0.42, 0.425, 0.42), rough=0.30, coat=0.6),
     duct=new_mat('BypassDuct_SatinAlu', (0.62, 0.63, 0.64), rough=0.42, metal=1.0),
     spinner=None,
-    fan=new_mat('Fan_Composite', (0.07, 0.075, 0.085), rough=0.34, metal=0.3, coat=0.25),
+    fan=new_mat('Fan_Composite', (0.007, 0.0085, 0.010), rough=0.55, metal=0.0, coat=0.0),   # dark composite, renders ~#1E2226-#3A3E42 under the key
     lpc=new_mat('LPC_Titanium', (0.66, 0.64, 0.60), rough=0.26, metal=1.0),
     hpc=new_mat('HPC_Steel', (0.80, 0.81, 0.83), rough=0.20, metal=1.0),
     stator=new_mat('Stator_DarkSteel', (0.42, 0.43, 0.45), rough=0.32, metal=1.0),
@@ -225,7 +225,7 @@ M = dict(
     casing=new_mat('Casing_Gunmetal', (0.20, 0.21, 0.22), rough=0.40, metal=1.0),
     disc=new_mat('Disc_Steel', (0.55, 0.56, 0.58), rough=0.30, metal=1.0),
     bearing=new_mat('Bearing_Brass', (0.72, 0.58, 0.32), rough=0.30, metal=1.0),
-    cap=new_mat('CutFace_Coral', (0.50, 0.095, 0.06), rough=0.55),
+    cap=new_mat('CutFace_DeepRed', (0.075, 0.0012, 0.001), rough=0.70),         # deep red section caps (renders ~#8B-#A0 red after AgX + lights)
     cap_light=new_mat('CutFace_Light', (0.55, 0.42, 0.36), rough=0.6),
     backdrop=new_mat('Backdrop', (0.008, 0.0084, 0.0095), rough=0.85),
     ref=new_mat('RefLine', (1, 0.1, 0.1), emit=(1, 0.15, 0.1), estr=4.0),
@@ -257,6 +257,13 @@ M['spinner'] = spinner_material()
 M['lpshaft_cap'] = new_mat('CutFace_LPShaft', (0.12, 0.30, 0.75), rough=0.5)
 M['hpshaft_cap'] = new_mat('CutFace_HPShaft', (0.95, 0.50, 0.15), rough=0.5)
 M['backdrop'].node_tree.nodes['Principled BSDF'].inputs['Specular IOR Level'].default_value = 0.15
+# deep red cut faces: low specular so the key light doesn't wash them out to pink; no emission
+_b = M['cap'].node_tree.nodes['Principled BSDF']
+_b.inputs['Specular IOR Level'].default_value = 0.1; _b.inputs['Emission Strength'].default_value = 0.0
+# dark composite fan blades: matte-satin, slight sheen, low specular
+_b = M['fan'].node_tree.nodes['Principled BSDF']
+_b.inputs['Specular IOR Level'].default_value = 0.12
+_b.inputs['Sheen Weight'].default_value = 0.05; _b.inputs['Sheen Tint'].default_value = (0.35, 0.38, 0.42, 1)
 
 # ------------------------------------------------------------------ collections (10 named parts + structure)
 C_FAN = sub('01_Fan'); C_LPC = sub('02_LPC_Booster'); C_HPC = sub('03_HPC'); C_CMB = sub('04_Combustor')

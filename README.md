@@ -43,13 +43,13 @@ Stylized (no public number, chosen by eye): inlet lip length (-0.80 m), plug tip
 01_Fan (spinner with spiral, 18 blades, disc), 02_LPC_Booster, 03_HPC, 04_Combustor (liner, glow, 19 nozzles), 05_HPT, 06_LPT, 07_Exhaust_Nozzle (core nozzle and plug), 08_Bypass_Duct (outer wall, core cowl, OGVs), 09_Nacelle, 10_Shafts_DualRotor (LP blue, HP copper). Also 11_Structure (core casing, fan hub frame, TCF, TRF, bearings) and 12_Pylon_ext.
 
 ## Colour key (no labels)
-Nacelle: satin white paint. Bypass duct walls: satin aluminium. Fan: dark composite. LPC: warm titanium. HPC: bright steel. Stators and frames: dark steel/gunmetal. Combustor: Inconel bronze with an orange glow. HPT: dark gold. LPT: tempered blue. Exhaust: heat-tint dark grey. LP shaft: blue. HP shaft: copper. Cut faces: brick coral (light warm grey on nacelle/duct). Shaft cut faces use the shaft colour.
+Nacelle: satin white paint. Bypass duct walls: satin aluminium. Fan: dark charcoal composite (non-metallic, low specular, slight sheen). LPC: warm titanium. HPC: bright steel. Stators and frames: dark steel/gunmetal. Combustor: Inconel bronze with an orange glow. HPT: dark gold. LPT: tempered blue. Exhaust: heat-tint dark grey. LP shaft: blue. HP shaft: copper. Cut faces: deep red (light warm grey on nacelle/duct). Shaft cut faces use the shaft colour.
 
 ## Render times (Cycles CPU, 6 threads, OIDN, adaptive 256 max samples at threshold 0.015, 1920x1080)
 | Image | Time | Notes |
 |---|---|---|
-| renders/cutaway.png | 266.6 s (4 min 27 s) | 2026-10-22 22:58 to 23:03 (Asia/Shanghai) |
-| renders/exterior.png | 368.0 s (6 min 8 s) | 23:03 to 23:09. The previous identical-settings run took 187 s, so this one was probably slowed by other processes sharing the box CPU |
+| renders/cutaway.png | 262.1 s (4 min 22 s) | 2026-10-23 08:11 to 08:16 (Asia/Shanghai), colour-tweak re-render. First final: 266.6 s |
+| renders/exterior.png | 184.2 s (3 min 4 s) | 2026-10-23 08:16 to 08:19 (Asia/Shanghai), colour-tweak re-render. First final took 368.0 s, probably slowed by other processes sharing the box CPU |
 Scene: about 125k vertices and 124 objects. Peak render memory was about 220 MB. Previews took about 4 s (640x360, 16 samples) and mid renders about 45 s (1280x720, 64 samples).
 
 ## What was cut
@@ -64,9 +64,12 @@ Nothing from P0 or P1. From P2, the bearing rings and the spinner spiral are in.
 6. **The EEVEE probe from step 0 was skipped.** Cycles previews took about 4 s, so a faster check wasn't needed.
 7. **Compositor** keeps only a gentle vignette. The demo's bloom and streaks were dropped for the product-photography look.
 8. Render metadata stamps (`use_stamp_*`) are off as well as the burn-in, so the PNGs carry no file path, date or hostname. Cycles still writes its sample and time keys.
-9. **Bug fixed after the finals:** each scene's compositor Render Layers node defaulted to the scene that was active when the script ran, so in the saved .blend the Exterior scene rendered the Cutaway scene. `rl.scene` is now set explicitly. Both finals were rendered with their own scene active, so they were not affected. Both scenes in the re-saved `engine.blend` were verified (previews/blendcheck_v3.png).
+9. **Bug fixed after the finals:** each scene's compositor Render Layers node defaulted to the scene that was active when the script ran, so in the saved .blend the Exterior scene rendered the Cutaway scene. `rl.scene` is now set explicitly. Both finals were rendered with their own scene active, so they were not affected. Both scenes in the re-saved `engine.blend` were verified (previews/blendcheck_v3.png, and again after the colour tweak: previews/blendcheck_tweak.png).
 
 ## Verification done
 - `previews/side_final.png`: in this orthographic half-section the reference bars sit at x=0 and x=3.328 m and at r=±0.991 m. Measured in the image: 608 px for 3.328 m and 364 px for 1.99 m, which matches the length-to-fan-diameter ratio of 1.68.
 - Both finals are 1920x1080 RGB, with no text objects (the script asserts this), no burned-in stamp and no metadata stamp.
 - `engine.blend` opens headless, and both scenes render (`-S Exterior` and `-S Cutaway`).
+
+## Colour tweak (2026-10-23, Asia/Shanghai)
+Requested after review: the section caps read salmon and the fan blades read light grey. `CutFace_Coral` became `CutFace_DeepRed`, with linear base colour (0.075, 0.0012, 0.001), roughness 0.70, specular 0.1 and no emission; it renders at about sRGB #8C2621 to #A10702 under the cutaway lights. `Fan_Composite` is now non-metallic with no coat, linear base colour (0.007, 0.0085, 0.010), roughness 0.55, specular 0.12 and sheen 0.05; it renders charcoal, about sRGB #23272A to #2E3235, in the cutaway and near-black in the exterior. Geometry, lights, cameras and render settings are unchanged.
